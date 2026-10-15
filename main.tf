@@ -9,9 +9,9 @@ resource "azurerm_resource_group" "tf-ys-d4" {
 }
 
 output "resource_group_name" {
-  value = azurerm_resource_group.example.name
+  value = azurerm_resource_group.tf-ys-d4.name
 }
 
 output "resource_group_id" {
-  value = azurerm_resource_group.example.id
+  value = azurerm_resource_group.tf-ys-d4.id
 }
