@@ -11,10 +11,10 @@ terraform {
 }
   cloud {
     
-    organization = "motoshare"
+    organization = "ac-yash-training"
 
     workspaces {
-      name = "proezi_stage"
+      name = "tf-dev"
     }
 }
 }
